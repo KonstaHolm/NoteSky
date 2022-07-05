@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\holmk\\Desktop\\NoteSky\\API\\API.csproj": {}
+    "C:\\Users\\holmk\\Desktop\\NoteSky\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\holmk\\Desktop\\NoteSky\\API\\API.csproj": {
+    "C:\\Users\\holmk\\Desktop\\NoteSky\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\holmk\\Desktop\\NoteSky\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\holmk\\Desktop\\NoteSky\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\holmk\\Desktop\\NoteSky\\API\\API.csproj",
+        "projectPath": "C:\\Users\\holmk\\Desktop\\NoteSky\\api\\API.csproj",
         "packagesPath": "C:\\Users\\holmk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\holmk\\Desktop\\NoteSky\\API\\obj\\",
+        "outputPath": "C:\\Users\\holmk\\Desktop\\NoteSky\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -179,6 +185,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -241,6 +253,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
