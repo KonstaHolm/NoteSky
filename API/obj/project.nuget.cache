@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HrZZpw4lRgnRh0Q99qbewf5VI6h1E+IK5BCOFmAhQd1oSYA27pDFkGPIJEl4D7rKFOmfGxTHMdkX20j00v/c6w==",
+  "dgSpecHash": "DzFzG4vb+qb6afdq3cDmOCclAq3NNEcurshSrVG44Y1vbh6tvzWJ2TiSnM1bTRVtZV2nGjEYNAzOibftqM805w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\holmk\\Desktop\\NoteSky\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\holmk\\Desktop\\NoteSky\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\holmk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\holmk\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.6\\microsoft.aspnetcore.cryptography.internal.6.0.6.nupkg.sha512",

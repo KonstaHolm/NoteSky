@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\holmk\\Desktop\\NoteSky\\api\\API.csproj": {}
+    "C:\\Users\\holmk\\Desktop\\NoteSky\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\holmk\\Desktop\\NoteSky\\api\\API.csproj": {
+    "C:\\Users\\holmk\\Desktop\\NoteSky\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\holmk\\Desktop\\NoteSky\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\holmk\\Desktop\\NoteSky\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\holmk\\Desktop\\NoteSky\\api\\API.csproj",
+        "projectPath": "C:\\Users\\holmk\\Desktop\\NoteSky\\API\\API.csproj",
         "packagesPath": "C:\\Users\\holmk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\holmk\\Desktop\\NoteSky\\api\\obj\\",
+        "outputPath": "C:\\Users\\holmk\\Desktop\\NoteSky\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
