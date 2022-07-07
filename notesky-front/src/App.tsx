@@ -1,33 +1,22 @@
-import HomePage from "./containers/HomePage/HomePage";
-import axios from 'axios';
-import { useEffect, useState } from "react";
-import NavBar from "./components/NavBar/NavBar";
-import { Container } from "semantic-ui-react";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import LoginForm from './components/Login/LoginForm';
+import RegisterForm from './components/Register/RegisterForm';
+import HomePage from './containers/HomePage/HomePage';
+import NotePage from './containers/NotePage/NotePage';
+import NotFound from './containers/NotFound/NotFound';
 
 function App() {
-  const [Notes, setNotes] = useState([]);
-
-  useEffect(() => {
-    axios.get('http://localhost:5000/api/notes').then(response => {
-      console.log(response.data);
-      setNotes(response.data);
-    })
-  }, [])
-
   return (
     <>
-      <NavBar />
-      <Container style={{ marginTop: '7em' }}>
-        <ul>
-          {Notes.map((note: any) => (
-            <li key={note.id}>
-              {note.Title}
-              {note.Description}
-            </li>
-          ))}
-        </ul>
-        <HomePage />
-      </Container>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/notes' element={<NotePage />} />
+          <Route path='/login' element={<LoginForm />} />
+          <Route path='/register' element={<RegisterForm />} />
+          <Route path='/*' element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
